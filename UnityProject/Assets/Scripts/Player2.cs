@@ -14,6 +14,7 @@ public class Player2 : MonoBehaviour {
 	
 	public Rigidbody2D RigidbodyComponent;
 
+	private bool wasFalling = true; 
 	private bool isGrounded { get{ return RigidbodyComponent.velocity.y<1&&RigidbodyComponent.velocity.y>-1;}}
 	// Use this for initialization
 	void Awake () {
@@ -22,7 +23,9 @@ public class Player2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (RigidbodyComponent.velocity.y < -1) {
+			wasFalling = true;
+		}
 		checkMovement();
 		HandleActionInput();
 		processMovement();
@@ -80,8 +83,9 @@ public class Player2 : MonoBehaviour {
 	}
 	
 	public void jump(){
-		if(isGrounded){
+		if(isGrounded && wasFalling){
 			VerticalVelocity = JumpSpeed;
+			wasFalling = false;
 		}
 	}
 }
