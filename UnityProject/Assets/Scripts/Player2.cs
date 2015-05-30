@@ -14,18 +14,21 @@ public class Player2 : MonoBehaviour {
 	
 	public Rigidbody2D RigidbodyComponent;
 
-	private bool wasFalling = true; 
-	private bool isGrounded { get{ return RigidbodyComponent.velocity.y<1&&RigidbodyComponent.velocity.y>-1;}}
+    private bool isGrounded { get { return RigidbodyComponent.velocity.y < 1 && RigidbodyComponent.velocity.y > -1&&isRealGrounded; } }
+    private bool isRealGrounded;
+    private bool wasFalling = true; 
 	// Use this for initialization
 	void Awake () {
+        isRealGrounded = true;
 		RigidbodyComponent = gameObject.GetComponent("Rigidbody2D") as Rigidbody2D;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (RigidbodyComponent.velocity.y < -1) {
-			wasFalling = true;
-		}
+        if (RigidbodyComponent.velocity.y < -1)
+        {
+            wasFalling = true;
+        }
 		checkMovement();
 		HandleActionInput();
 		processMovement();
@@ -83,9 +86,40 @@ public class Player2 : MonoBehaviour {
 	}
 	
 	public void jump(){
-		if(isGrounded && wasFalling){
-			VerticalVelocity = JumpSpeed;
-			wasFalling = false;
-		}
+        if (isGrounded && wasFalling)
+        {
+            VerticalVelocity = JumpSpeed;
+            wasFalling = false;
+        }
 	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Floor")
+        {
+            if(collision.collider.transform.position.y>transform.position.y)
+            {
+                MoveVector = new Vector3(MoveVector.x, MoveVector.y > 0 ? 0 : MoveVector.y, MoveVector.z);
+                VerticalVelocity = 0;
+				isRealGrounded = false;
+            }
+			else
+			{
+				isRealGrounded = true;
+			}
+        }
+        if(collision.collider.tag == "Cloud")
+        {
+            if (collision.collider.transform.position.y < transform.position.y)
+            {
+                MoveVector = new Vector3(MoveVector.x, MoveVector.y*(-2), MoveVector.z);
+            }
+            else
+            {
+                MoveVector = new Vector3(MoveVector.x, MoveVector.y > 0 ? 0 : MoveVector.y, MoveVector.z);
+                VerticalVelocity = 0;
+                isRealGrounded = false;
+            }
+        }
+    }
 }
