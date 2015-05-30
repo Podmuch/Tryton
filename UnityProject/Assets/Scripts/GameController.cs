@@ -14,6 +14,12 @@ public class GameController : MonoBehaviour
 
     #endregion
 
+    #region PREFAB REFERENCES
+
+    public Blood BloodPrefab;
+
+    #endregion
+
     private int lives;
 
     #region MONO BEHAVIOUR

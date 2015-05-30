@@ -113,6 +113,8 @@ public class PlayerScript : MonoBehaviour
         if (collision.collider.tag == "Fish" && !inTouchable)
         {
             GameController.Instance.LoseLife();
+            GameObject blood = (GameObject)Instantiate(GameController.Instance.BloodPrefab.gameObject, transform.position, Quaternion.identity);
+            blood.transform.parent = transform.parent;
             inTouchable = true;
             inTouchableTimer = 0.0f;
         }
