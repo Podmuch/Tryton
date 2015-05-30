@@ -46,6 +46,7 @@ public class GameController : MonoBehaviour
     public void GameOver()
     {
         FishGenerator.StopGenerator();
+        PlayButton.Init();
     }
 
     public void LoseLife()

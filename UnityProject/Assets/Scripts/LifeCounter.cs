@@ -23,5 +23,9 @@ public class LifeCounter : MonoBehaviour {
         {
             Lives[i].color = new Color(Lives[i].color.r, Lives[i].color.g, Lives[i].color.b, i<lives?1:0);
         }
+        if(lives<=0)
+        {
+            Background.color = new Color(Background.color.r, Background.color.g, Background.color.b, 0);
+        }
     }
 }

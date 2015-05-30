@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 5a43cc33728d8db498ac29e9b1334f78
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: triton_0
+    21300002: triton_1
+    21300004: triton_2
+    21300006: triton_3
+    21300008: triton_4
+    21300010: triton_5
+    21300012: triton_6
+    21300014: triton_7
+    21300016: triton_8
+    21300018: triton_9
+    21300020: triton_10
+    21300022: triton_11
+    21300024: triton_12
+    21300026: triton_13
+    21300028: triton_14
+    21300030: triton_15
+    21300032: triton_16
+    21300034: triton_17
+    21300036: triton_18
+    21300038: triton_19
+    21300040: triton_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: triton_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2923
+        width: 268
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2769
+        width: 274
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2623
+        width: 253
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2486
+        width: 268
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2346
+        width: 262
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2182
+        width: 135
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2039
+        width: 128
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1914
+        width: 268
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1765
+        width: 298
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1622
+        width: 379
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1458
+        width: 253
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1327
+        width: 253
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1190
+        width: 265
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1044
+        width: 170
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 901
+        width: 149
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_15
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 761
+        width: 173
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 609
+        width: 164
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 574
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 311
+        width: 481
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 485
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_20
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 157
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
