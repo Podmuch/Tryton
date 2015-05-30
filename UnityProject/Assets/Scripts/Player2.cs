@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Player2 : MonoBehaviour {
 
+    private const int MIN_TRANSISTORS = 10;
+    private const int MAX_TRANSISTORS = 32;
     public Camera CameraObject;
+    public Text TransistorCounter;
 	public float Gravity = 0f;	//downward force
 	public float TerminalVelocity = 200f;	//max downward speed
 	public float JumpSpeed = 6000f;
@@ -13,7 +17,9 @@ public class Player2 : MonoBehaviour {
 	public float VerticalVelocity {get; set;}
 	
 	public Rigidbody2D RigidbodyComponent;
+    public GameObject Teleport;
 
+    private int transistorsCollected = 0;
     private bool isGrounded { get { return RigidbodyComponent.velocity.y < 1 && RigidbodyComponent.velocity.y > -1&&isRealGrounded; } }
     private bool isRealGrounded;
     private bool wasFalling = true; 
@@ -21,6 +27,7 @@ public class Player2 : MonoBehaviour {
 	void Awake () {
         isRealGrounded = true;
 		RigidbodyComponent = gameObject.GetComponent("Rigidbody2D") as Rigidbody2D;
+        Teleport.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -120,6 +127,31 @@ public class Player2 : MonoBehaviour {
                 VerticalVelocity = 0;
                 isRealGrounded = false;
             }
+        }
+		if (collision.collider.tag == "Killer")
+		{
+            Application.LoadLevel(Application.loadedLevelName);
+		}
+        if (collision.collider.tag == "EndPoints")
+        {
+            if(transistorsCollected>=MIN_TRANSISTORS)
+            {
+                Application.LoadLevel("level3");
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Transistor")
+        {
+            transistorsCollected++;
+            TransistorCounter.text = transistorsCollected + "/" + MIN_TRANSISTORS + " Transistors";
+			Destroy(other.gameObject);
+			if(transistorsCollected>=MIN_TRANSISTORS)
+			{
+				Teleport.SetActive(true);
+			}
         }
     }
 }
