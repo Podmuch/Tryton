@@ -8,7 +8,7 @@ public class Food : MonoBehaviour
 	private const float DOWN_BORDER = -1.9f;
 	private const float HEIGHT = 4.0f;
 
-	private const float BAD_FOOD_RATE = 0.1;
+	private const float BAD_FOOD_RATE = 0.1f;
 	
 	#endregion
 	
@@ -40,6 +40,6 @@ public class Food : MonoBehaviour
 		RigidbodyComponent.velocity = velocity;
 
 		if (transform.localPosition.y < DOWN_BORDER)
-			Destroy (GameObject);
+			Destroy (this);
 	}
 }
