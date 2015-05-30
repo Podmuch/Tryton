@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     #region SCENE REFERENCES
 
     public PlayButton PlayButton;
+    public FishGenerator FishGenerator;
 
     #endregion
 
@@ -32,6 +33,6 @@ public class GameController : MonoBehaviour
 
     public void StartGame()
     {
- 	    throw new System.NotImplementedException();
+        FishGenerator.StartGenerator();
     }
 }
