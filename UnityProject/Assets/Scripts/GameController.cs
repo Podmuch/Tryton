@@ -54,9 +54,7 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        FishGenerator.StopGenerator();
-        PlayButton.Init();
-        Player.gameObject.SetActive(false);
+        Application.LoadLevel("gameover");
     }
 
     public void LoseLife()

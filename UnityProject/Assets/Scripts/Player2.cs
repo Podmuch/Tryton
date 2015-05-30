@@ -130,13 +130,13 @@ public class Player2 : MonoBehaviour {
         }
 		if (collision.collider.tag == "Killer")
 		{
-            Application.LoadLevel(Application.loadedLevelName);
+            Application.LoadLevel("gameover");
 		}
         if (collision.collider.tag == "EndPoints")
         {
             if(transistorsCollected>=MIN_TRANSISTORS)
             {
-                Application.LoadLevel("level3");
+                Application.LoadLevel("GamePlay");
             }
         }
     }
