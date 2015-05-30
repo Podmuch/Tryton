@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 3951ba386954dee4ca70735724f29ef2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: better_fishes_0
+    21300002: better_fishes_1
+    21300004: better_fishes_2
+    21300006: better_fishes_3
+    21300008: better_fishes_4
+    21300010: better_fishes_5
+    21300012: better_fishes_6
+    21300014: better_fishes_7
+    21300016: better_fishes_8
+    21300018: better_fishes_9
+    21300020: better_fishes_10
+    21300022: better_fishes_11
+    21300024: better_fishes_12
+    21300026: better_fishes_13
+    21300028: better_fishes_14
+    21300030: better_fishes_15
+    21300032: better_fishes_16
+    21300034: better_fishes_17
+    21300036: better_fishes_18
+    21300038: better_fishes_19
+    21300040: better_fishes_20
+    21300042: better_fishes_21
+    21300044: better_fishes_22
+    21300046: better_fishes_23
+    21300048: better_fishes_24
+    21300050: better_fishes_25
+    21300052: better_fishes_26
+    21300054: better_fishes_27
+    21300056: better_fishes_28
+    21300058: better_fishes_29
+    21300060: better_fishes_30
+    21300062: better_fishes_31
+    21300064: better_fishes_32
+    21300066: better_fishes_33
+    21300068: better_fishes_34
+    21300070: better_fishes_35
+    21300072: better_fishes_36
+    21300074: better_fishes_37
+    21300076: better_fishes_38
+    21300078: better_fishes_39
+    21300080: better_fishes_40
+    21300082: better_fishes_41
+    21300084: better_fishes_42
+    21300086: better_fishes_43
+    21300088: better_fishes_44
+    21300090: better_fishes_45
+    21300092: better_fishes_46
+    21300094: better_fishes_47
+    21300096: better_fishes_48
+    21300098: better_fishes_49
+    21300100: better_fishes_50
+    21300102: better_fishes_51
+    21300104: better_fishes_52
+    21300106: better_fishes_53
+    21300108: better_fishes_54
+    21300110: better_fishes_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: better_fishes_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 615
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 615
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 614
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 617
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 612
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_5
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 610
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 610
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 614
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 516
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 521
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 513
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 512
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 517
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_13
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 521
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 514
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_15
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 504
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 419
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 419
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_18
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 420
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 417
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 426
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_21
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 425
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 421
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_23
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 421
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 323
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 323
+        width: 78
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 323
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 319
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 327
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_29
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 315
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_30
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 324
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_31
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 322
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_32
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 226
+        width: 68
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 226
+        width: 89
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 225
+        width: 92
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_35
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 231
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_37
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 225
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 230
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_39
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 224
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 126
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 130
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_42
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 126
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_43
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 128
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_44
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 124
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_45
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 127
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_46
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 127
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_47
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 120
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_49
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 28
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 27
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_51
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 35
+        width: 92
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_53
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 25
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_54
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 27
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: better_fishes_55
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 31
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
