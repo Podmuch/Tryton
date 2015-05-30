@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public FishGenerator FishGenerator;
     public PlayerScript Player;
     public LifeCounter LifeCounter;
+    public FoodGenerator FoodGenerator;
 
     #endregion
 
@@ -43,9 +44,11 @@ public class GameController : MonoBehaviour
 
     public void StartGame()
     {
-        FishGenerator.StartGenerator(); 
+        FishGenerator.StartGenerator();
+        Player.gameObject.SetActive(true);
         Player.Init();
         LifeCounter.Init();
+        FoodGenerator.StartGenerator();
         lives = 5;
     }
 
@@ -53,6 +56,7 @@ public class GameController : MonoBehaviour
     {
         FishGenerator.StopGenerator();
         PlayButton.Init();
+        Player.gameObject.SetActive(false);
     }
 
     public void LoseLife()
@@ -61,8 +65,12 @@ public class GameController : MonoBehaviour
         LifeCounter.LifeLose(lives);
         if(lives<=0)
         {
-            Destroy(Player.gameObject);
             GameOver();
         }
+    }
+
+    public void NextRound()
+    {
+        Application.LoadLevel("second_level");
     }
 }

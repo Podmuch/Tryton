@@ -3,8 +3,8 @@ using System.Collections;
 
 public class FoodGenerator: MonoBehaviour {
 	#region CLASS SETTINGS
-	
-	private float RESPAWN_TIME = 0.5f;
+
+    private float RESPAWN_TIME = 2.0f;
 	
 	#endregion
 	
@@ -25,7 +25,7 @@ public class FoodGenerator: MonoBehaviour {
 			if(timer>=RESPAWN_TIME)
 			{
 				timer = 0;
-				GameObject newFood = (GameObject)Instantiate(FoodPrefabs[UnityEngine.Random.Range(0, FoodPrefabs.Length)].gameObject);
+                GameObject newFood = (GameObject)Instantiate(UnityEngine.Random.Range(0, 10.0f) < 1.5f ? FoodPrefabs[1].gameObject : FoodPrefabs[0].gameObject);
 				newFood.transform.parent = transform;
 				newFood.transform.localScale = Vector3.one;
 				Food foodComponent = newFood.GetComponent<Food>();

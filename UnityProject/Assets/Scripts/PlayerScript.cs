@@ -35,6 +35,7 @@ public class PlayerScript : MonoBehaviour
     private int framesAfterTurnAnimation = 0;
     private bool inTouchable;
     private float inTouchableTimer = 0.0f;
+    private int foodCounter = 0;
     public void Init()
     {
         isInit = true;
@@ -42,6 +43,8 @@ public class PlayerScript : MonoBehaviour
         inTouchable = false;
         inTouchableTimer = 0.0f;
         framesAfterTurnAnimation = 0;
+        transform.localScale = Vector3.one * 0.1f;
+        foodCounter = 0;
         floatingAnimator = Random.Range(FLOATING_ANIMATOR_MIN_VALUE, FLOATING_ANIMATOR_MAX_VALUE);
         floatingDirection = Random.Range(0, 10) < 5 ? Random.Range(-1.0f, -0.5f) : Random.Range(0.5f, 1.0f);
         StartCoroutine(Show());
@@ -117,6 +120,16 @@ public class PlayerScript : MonoBehaviour
             blood.transform.parent = transform.parent;
             inTouchable = true;
             inTouchableTimer = 0.0f;
+        }
+        else if (collision.collider.tag == "Food")
+        {
+            transform.localScale *= 1.05f;
+            foodCounter++;
+            Destroy(collision.collider.gameObject);
+            if(foodCounter==20)
+            {
+                GameController.Instance.NextRound();
+            }
         }
     }
 }

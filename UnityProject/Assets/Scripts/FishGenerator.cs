@@ -6,7 +6,7 @@ public class FishGenerator : MonoBehaviour
     #region CLASS SETTINGS
 
     private float MAX_RESPAWN_TIME = 1.5f;
-    private float MIN_RESPAWN_TIME = 0.3f;
+    private float MIN_RESPAWN_TIME = 0.5f;
     private float RESPAWN_TIME_DELAY = 0.05f;
 
     #endregion
