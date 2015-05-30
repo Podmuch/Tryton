@@ -1,7 +1,83 @@
 fileFormatVersion: 2
 guid: 0b69d85cf87a2524caefeb66ea3e67e2
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: triton_platformer_0
+    21300002: triton_platformer_1
+    21300004: triton_platformer_2
+    21300006: triton_platformer_3
+    21300008: triton_platformer_4
+    21300010: triton_platformer_5
+    21300012: triton_platformer_6
+    21300014: triton_platformer_7
+    21300016: triton_platformer_8
+    21300018: triton_platformer_9
+    21300020: triton_platformer_10
+    21300022: triton_platformer_11
+    21300024: triton_platformer_12
+    21300026: triton_platformer_13
+    21300028: triton_platformer_14
+    21300030: triton_platformer_15
+    21300032: triton_platformer_16
+    21300034: triton_platformer_17
+    21300036: triton_platformer_18
+    21300038: triton_platformer_19
+    21300040: triton_platformer_20
+    21300042: triton_platformer_21
+    21300044: triton_platformer_22
+    21300046: triton_platformer_23
+    21300048: triton_platformer_24
+    21300050: triton_platformer_25
+    21300052: triton_platformer_26
+    21300054: triton_platformer_27
+    21300056: triton_platformer_28
+    21300058: triton_platformer_29
+    21300060: triton_platformer_30
+    21300062: triton_platformer_31
+    21300064: triton_platformer_32
+    21300066: triton_platformer_33
+    21300068: triton_platformer_34
+    21300070: triton_platformer_35
+    21300072: triton_platformer_36
+    21300074: triton_platformer_37
+    21300076: triton_platformer_38
+    21300078: triton_platformer_39
+    21300080: triton_platformer_40
+    21300082: triton_platformer_41
+    21300084: triton_platformer_42
+    21300086: triton_platformer_43
+    21300088: triton_platformer_44
+    21300090: triton_platformer_45
+    21300092: triton_platformer_46
+    21300094: triton_platformer_47
+    21300096: triton_platformer_48
+    21300098: triton_platformer_49
+    21300100: triton_platformer_50
+    21300102: triton_platformer_51
+    21300104: triton_platformer_52
+    21300106: triton_platformer_53
+    21300108: triton_platformer_54
+    21300110: triton_platformer_55
+    21300112: triton_platformer_56
+    21300114: triton_platformer_57
+    21300116: triton_platformer_58
+    21300118: triton_platformer_59
+    21300120: triton_platformer_60
+    21300122: triton_platformer_61
+    21300124: triton_platformer_62
+    21300126: triton_platformer_63
+    21300128: triton_platformer_64
+    21300130: triton_platformer_65
+    21300132: triton_platformer_66
+    21300134: triton_platformer_67
+    21300136: triton_platformer_68
+    21300138: triton_platformer_69
+    21300140: triton_platformer_70
+    21300142: triton_platformer_71
+    21300144: triton_platformer_72
+    21300146: triton_platformer_73
+    21300148: triton_platformer_74
+    21300150: triton_platformer_75
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,27 +97,787 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: triton_platformer_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 793
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 793
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 793
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_3
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 793
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_4
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 793
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_5
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 793
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_6
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 794
+        width: 95
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_7
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 813
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_8
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 813
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_9
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 813
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_10
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 794
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 688
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 688
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 687
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_14
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 688
+        width: 107
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 688
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 688
+        width: 114
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_17
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 687
+        width: 111
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_18
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 687
+        width: 103
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_19
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 688
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 556
+        width: 124
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 554
+        width: 95
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_22
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 554
+        width: 95
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_23
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 554
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_24
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 554
+        width: 94
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_25
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 554
+        width: 117
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_26
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 553
+        width: 30
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_27
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 556
+        width: 99
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_28
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 556
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_29
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 557
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_30
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 557
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_31
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 557
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 408
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_33
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 419
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_34
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 419
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_35
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 420
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_36
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 419
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_37
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 405
+        width: 49
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_38
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 402
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_39
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 402
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_40
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 402
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_41
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 402
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_42
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 402
+        width: 100
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_43
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 230
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 233
+        width: 111
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_45
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 233
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_46
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 233
+        width: 114
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_47
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 233
+        width: 154
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_48
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 233
+        width: 161
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_49
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 233
+        width: 160
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_50
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 233
+        width: 160
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_51
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 308
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_52
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 233
+        width: 99
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_53
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 288
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_54
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 233
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_55
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 107
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 107
+        width: 98
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 104
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_58
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 106
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_59
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 106
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_60
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 104
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_61
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 104
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_62
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 106
+        width: 119
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_63
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 106
+        width: 122
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_64
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 106
+        width: 99
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_65
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 106
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_66
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 106
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_67
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 46
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_68
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 46
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_69
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 49
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 37
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_71
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 30
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_73
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 30
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_74
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 30
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: triton_platformer_75
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 8
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

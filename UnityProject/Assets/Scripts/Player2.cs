@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Player2 : MonoBehaviour {
-	
+
+    public Camera CameraObject;
 	public float Gravity = 0f;	//downward force
 	public float TerminalVelocity = 200f;	//max downward speed
 	public float JumpSpeed = 6000f;
@@ -11,12 +12,12 @@ public class Player2 : MonoBehaviour {
 	public Vector3 MoveVector {get; set;}
 	public float VerticalVelocity {get; set;}
 	
-	public Rigidbody2D CharacterController;
+	public Rigidbody2D RigidbodyComponent;
 
-	private bool isGrounded { get{ return CharacterController.velocity.y<1&&CharacterController.velocity.y>-1;}}
+	private bool isGrounded { get{ return RigidbodyComponent.velocity.y<1&&RigidbodyComponent.velocity.y>-1;}}
 	// Use this for initialization
 	void Awake () {
-		CharacterController = gameObject.GetComponent("Rigidbody2D") as Rigidbody2D;
+		RigidbodyComponent = gameObject.GetComponent("Rigidbody2D") as Rigidbody2D;
 	}
 	
 	// Update is called once per frame
@@ -25,6 +26,7 @@ public class Player2 : MonoBehaviour {
 		checkMovement();
 		HandleActionInput();
 		processMovement();
+        CameraObject.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
 	}
 	
 	void checkMovement(){
@@ -64,7 +66,8 @@ public class Player2 : MonoBehaviour {
 		applyGravity();
 		
 		//move character in world-space
-		CharacterController.velocity = MoveVector ;
+        transform.localRotation = Quaternion.Euler(new Vector3(0, MoveVector.x < 0 ? 0 : MoveVector.x > 0 ? 180 : transform.localRotation.eulerAngles.y, 0));
+		RigidbodyComponent.velocity = MoveVector ;
 	}
 	
 	void applyGravity(){
