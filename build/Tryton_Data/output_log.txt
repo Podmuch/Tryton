@@ -16,8 +16,60 @@ Platform assembly: C:\Users\Dominik\Documents\GitHub\Tryton\build\Tryton_Data\Ma
 Loading C:\Users\Dominik\Documents\GitHub\Tryton\build\Tryton_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Dominik\Documents\GitHub\Tryton\build\Tryton_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Dominik\Documents\GitHub\Tryton\build\Tryton_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.043 seconds
+- Completed reload, in  0.122 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
 <RI> Input initialized.
+Platform assembly: C:\Users\Dominik\Documents\GitHub\Tryton\build\Tryton_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dominik\Documents\GitHub\Tryton\build\Tryton_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 56.410721 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 331.
+Total: 2.234604 ms (FindLiveObjects: 0.042286 ms CreateObjectMapping: 0.036128 ms MarkObjects: 0.553416 ms  DeleteObjects: 0.029559 ms)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.027460 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 256.
+Total: 2.124988 ms (FindLiveObjects: 0.027917 ms CreateObjectMapping: 0.027506 ms MarkObjects: 0.446674 ms  DeleteObjects: 0.200757 ms)
+
+UnloadTime: 1.225070 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 333.
+Total: 2.037542 ms (FindLiveObjects: 0.039412 ms CreateObjectMapping: 0.028327 ms MarkObjects: 0.537815 ms  DeleteObjects: 0.011495 ms)
+
+UnloadTime: 2.398412 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1145.
+Total: 2.310965 ms (FindLiveObjects: 0.126858 ms CreateObjectMapping: 0.044339 ms MarkObjects: 0.554237 ms  DeleteObjects: 0.208968 ms)
+
+UnloadTime: 3.031474 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 2.229677 ms (FindLiveObjects: 0.037359 ms CreateObjectMapping: 0.038591 ms MarkObjects: 0.493066 ms  DeleteObjects: 0.226621 ms)
+

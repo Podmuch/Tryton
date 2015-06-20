@@ -16,6 +16,18 @@ public class Splashscreen : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(Input.GetKeyDown(KeyCode.F1))
+        {
+            Application.LoadLevel("mainscene");
+        }
+        else if (Input.GetKeyDown(KeyCode.F2))
+        {
+            Application.LoadLevel("second_level");
+        }
+        else if (Input.GetKeyDown(KeyCode.F3))
+        {
+            Application.LoadLevel("GamePlay");
+        }
         if (animationTime < ANIMATION_TIME)
         {
             animationTime += Time.deltaTime;

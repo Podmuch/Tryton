@@ -75,6 +75,18 @@ namespace Asteroids.GamePlay
                 EnemyShipsSpawn();
                 EndGame();
             }
+            if (Input.GetKeyDown(KeyCode.F1))
+            {
+                Application.LoadLevel("mainscene");
+            }
+            else if (Input.GetKeyDown(KeyCode.F2))
+            {
+                Application.LoadLevel("second_level");
+            }
+            else if (Input.GetKeyDown(KeyCode.F3))
+            {
+                Application.LoadLevel("GamePlay");
+            }
         }
 
         private void EndGame()
